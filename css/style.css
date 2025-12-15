@@ -1,0 +1,666 @@
+/* Local Font Definitions */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-300.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-500.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-600.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-700.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../assets/fonts/jetbrains-mono-300.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/jetbrains-mono-400.ttf') format('truetype');
+}
+
+/* Definition of variables */
+  :root{
+    --primary-font: "Montserrat";
+    --secondary-font: "JetBrains Mono";
+    --calendar-vertical-gap: 0rem;
+    --standard-weight: 400;
+    --accent-weight: 600;
+
+    /* Three font sizes*/
+    --large: clamp(1.3rem, 1.0rem + 0.5vw, 1.6rem);
+    --medium: clamp(1.0rem, 0.8rem + 0.3vw, 1.3rem);
+    --small: clamp(0.8rem, 0.8rem + 0.3vw, 1.0rem);
+
+    --accent-color: #E75821;
+    --secondary-color: grey;
+
+    /* Margins */
+    --section-margin: var(--large);
+  }
+
+
+h2{
+    font-size: var(--large);
+    font-weight: 600;
+}
+h3{
+    font-size: var(--medium);
+}
+
+html{
+    background-color: whitesmoke;
+}
+
+/* General page layout*/
+*{
+    margin:0;
+    padding:0;
+}
+.site-container{
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 20px auto;
+    padding: 0 auto;
+}
+body
+{
+    min-height: 100vh;
+    font-family: var(--primary-font);
+    font-weight: var(--standard-weight);
+    font-size: var(--medium);
+    padding: 0 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #E75821;
+    font-family: var(--secondary-font);
+    font-weight: 300;
+}
+a:hover{
+    color: var(--secondary-color);
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: var(--section-margin);
+    gap: 0.3rem;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+   BARRIEREFREIHEIT
+   ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+   Alle Regeln für Barrierefreiheit (Accessibility) an einem Ort
+   zusammengefasst für bessere Wartbarkeit und Übersicht.
+   –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Screen Reader Only - macht Elemente visuell unsichtbar, aber für Screen Reader zugänglich */
+h1, .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Level 3 Barrierefreiheit: Resets für semantische HTML-Elemente */
+/* Überschreibt Browser-Defaults, damit Grid-Layout unverändert bleibt */
+
+/* <ol> als Grid-Container - entfernt Nummern und Padding */
+ol.milonga-grid {
+    list-style: none;
+    padding: 0;
+}
+
+/* <li> wird transparent - <article> wird direktes Grid-Item */
+.milonga-grid li {
+    display: contents;
+}
+
+h3.month-divider {
+    font-size: var(--medium);
+    font-weight: 300;
+    margin: 0;
+}
+
+h4.milonga-title {
+    font-size: var(--large);
+    font-weight: 700;
+    margin: 0;
+}
+
+address.milonga-location {
+    font-size: var(--medium);
+    font-style: normal;
+}
+
+/* Barrierefreiheit: Reduzierte Bewegung respektieren */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Barrierefreiheit: Höherer Kontrast für Nutzer, die das wünschen */
+@media (prefers-contrast: more) {
+    :root {
+        --secondary-color: #595959;
+    }
+}
+
+/* Barrierefreiheit: Skip-Link für Tastaturnutzer */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--accent-color);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 100;
+    border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Barrierefreiheit: Fehlermeldungen */
+.error-message {
+    background-color: #fef2f2;
+    border: 2px solid #dc2626;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.error-message p {
+    color: #991b1b;
+    margin: 0;
+}
+
+/* Barrierefreiheit: Fokus-Indikatoren für Tastaturnutzer */
+a:focus,
+button:focus {
+    outline: 1.5px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+.header-link:focus {
+    outline: 1.5px solid var(--accent-color);
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
+#show-less:focus {
+    outline: 1.5px solid var(--accent-color);
+    outline-offset: 3px;
+}
+
+#show-more:focus{
+    outline: 1.5px solid var(--secondary-color);
+    outline-offset: 3px;
+}
+
+/* Moderne Browser: Fokus nur bei Tastatur-Navigation */
+@supports selector(:focus-visible) {
+    a:focus:not(:focus-visible),
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+        outline: 3px solid var(--accent-color);
+        outline-offset: 2px;
+    }
+
+    .header-link:focus-visible {
+        outline: 3px solid var(--accent-color);
+        outline-offset: 4px;
+        border-radius: 2px;
+    }
+
+    #show-more:focus-visible,
+    #show-less:focus-visible {
+        outline: 3px solid var(--accent-color);
+        outline-offset: 3px;
+    }
+}
+
+/* ––––––– Ende Barrierefreiheit ––––––– */
+
+
+/* ––––––– Footer ––––––– */
+.header-container a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: black;
+}
+
+.header-container a:hover{
+    color: var(--accent-color);
+}
+
+.header-container{
+            width: 100%;
+            display: flex; 
+            justify-content: flex-end; 
+            align-items: flex-end;
+            font-family: var(--primary-font);
+            font-size: var(--medium);
+            gap: 1rem; 
+            margin-top: 40px;
+            margin-bottom: 20px;
+}        
+        /* Website title are two columns with one word each */
+    .website-title{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        font-weight: var(--accent-weight);
+        margin-right: auto;
+        padding: 0px;
+        flex-shrink: 2;
+    } 
+
+    .link-container{
+        display: flex;
+        font-weight: 500;
+        gap: clamp(0.5rem, 1.0rem + 1vw, 5rem);
+        border-top: 1px solid black; /* Farbe anpassen */
+        padding-top: 6px; /* Abstand zwischen Strich und Links */
+
+    }
+
+    .title2{
+        color: var(--accent-color);
+        font-family: var(--secondary-font);
+    }
+
+
+
+/* ––––––– Footer ––––––– */
+.footer-container a{
+    color: black; 
+    font-weight: 200;  
+}
+.footer-container a:hover{
+    color: var(--accent-color);  
+}
+.footer-container{
+    font-size: var(--small);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-family: "JetBrains Mono";
+    color: black;
+    font-weight: 200;  
+}
+
+
+/* ––––––– Section 1: Tanzen ––––––– */
+
+/* Milonga Calendar*/ 
+.milonga-container{
+    display: flex;
+    flex-direction: column;
+    max-width:1000px;
+    gap: 0.5rem;
+    margin-top: var(--medium);
+}
+.milonga-grid{
+        display:grid;
+        gap: 1.0rem;
+        grid-auto-flow: row;
+        margin: 0;
+        max-width: 1000px;
+    }
+    .milonga{
+        margin-left: 6px;
+        display:grid;
+        align-items: start;
+        grid-auto-columns: 22px minmax(0, 6fr) minmax(0, 4fr);
+        row-gap: var(--calendar-vertical-gap);
+        column-gap: 1rem;
+        grid-template-areas: 
+        "day time ."
+        "day title dj"
+        ". location location" /* Je nach Breakpoint unten rechts dj oder location*/
+        ". desc desc";
+    }
+
+@media (min-width: 400px) {
+    .milonga{
+        grid-template-areas: 
+         "day time ."
+        "day title dj"
+        ". location dj" /* Je nach Breakpoint unten rechts dj oder location*/  
+        ". desc desc";
+    }
+}
+    /* Col 1: Date*/
+    .milonga-date{
+        display: flex;
+        flex-direction: column;
+        gap: var(--calendar-vertical-gap);
+        align-items: center;
+    }
+        .weekday{
+            /* font-family: var(--secondary-font); */
+            font-size: var(--small);
+            font-weight: 300;
+        }
+        .date{
+            /* font-family: var(--secondary-font); */
+            font-size: var(--large);
+            font-weight: 300;
+        }
+
+    /* Col 2: Title*/
+
+    .milonga-time{
+        font-size: var(--small);
+    }    
+
+    .milonga-title{
+        font-weight: 700;
+        font-size: var(--large);
+    }
+     
+    .milonga-location{
+        font-size: var(--medium);
+        hyphens: auto;
+        /* margin-top: -0.5rem; */
+    }
+    
+        .street, .city{
+         /* Prevents line breaks such as 72072<br>Tübingen */
+    }
+
+    /* Col 3 */
+    .milonga-dj{
+        display: flex;
+        flex-direction: column;
+        gap: var(--calendar-vertical-gap);
+    }
+        .dj-name{
+            font-size: var(--medium);
+            font-weight: 600;
+            margin-top: 1px;
+        }
+        .dj-style{
+            font-size: var(--medium);
+        }
+
+    .month-divider{
+        font-family: var(--primary-font);
+        font-size: var(--medium);
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        /* font-family: var(--secondary-font); */
+    }
+    .month-divider::after{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--secondary-color);
+    }
+
+    .anmerkung{
+        font-size: var(--medium);
+        font-weight: 500;
+    }
+
+/* Calendar Buttons */
+.milonga-cal-buttons{
+    display: grid;
+    align-items: start;
+    justify-items: start;
+    grid-auto-columns: 22px minmax(0, 6fr) minmax(0, 4fr);
+    column-gap: 1rem;
+    grid-template-areas: "day title dj";
+    margin-left: 6px;
+}
+
+#show-more,
+#show-less {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+#show-more {
+    grid-area: title;
+}
+
+#show-more:hover {
+    color: var(--secondary-color);
+}
+
+#show-less {
+    grid-area: dj;
+    display: none;
+    color: var(--secondary-color);
+}
+
+#show-less:hover {
+    color: var(--accent-color);
+}
+
+
+
+/* ––––––– Section 2: Lernen ––––––– */
+
+.teacher-container{
+        display: grid;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        grid-template-columns: max-content max-content;
+        justify-content: start;
+        max-width: 800px;
+        margin-top: var(--medium);
+        list-style: none;
+        padding: 0;
+        counter-reset: teacher-counter;
+
+    }
+@media(min-width: 750px){
+    .teacher-container{
+        grid-auto-flow: column;
+        grid-auto-columns: auto;
+        grid-template-columns: none;
+        justify-content: space-between;
+    }
+}
+
+.teacher{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: clamp(0.5rem, 0.5rem + 1vw, 1.0rem);
+
+}
+
+.teacher-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-name{
+    line-height: 1;
+}
+
+.teacher-name a{
+    font-family: var(--primary-font);
+    font-weight: 600;   
+    font-size: var(--medium);
+    color: black;
+}
+
+.teacher-name a:hover{
+    color: var(--accent-color);
+}
+
+.teacher::before{
+    content: counter(teacher-counter);
+    counter-increment: teacher-counter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.button{
+    background: whitesmoke;
+    font-size: var(--medium);
+    border: none;
+}
+
+/* ––––––– Section 3: Community ––––––– */
+
+.community-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: var(--medium);
+    hyphens: auto;
+}
+@media(min-width: 700px){
+    .community-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.community{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;}
+
+.community-name{
+    line-height: 1;
+}
+
+.community-icon{
+    width: var(--large);
+    height: var(--large);
+    align-self: flex-start;
+    justify-self: flex-start;
+    flex-shrink: 0;
+}
+
+.teacher-link{
+    color: black;
+}
+
+
+/* ––––––– Contact ––––––– */
+
+ .about-me-img {
+      width: 100%;
+      max-width: 300px; 
+      height: auto;
+      object-fit: cover;
+  }
+
+  .img-container{
+    justify-self: end;
+  }
+
+.about-me-grid{
+    display:grid;
+    grid-auto-columns: 2fr 1fr;
+    gap: 1.0rem;
+    margin: 0;
+    max-width: 1000px;
+    grid-template-areas:
+    "intro img"
+    "outro img"
+    "reihenfolge img"
+    "open-source img"
+    "datenschutz img"
+    "impressum img"
+}
+
+@media(max-width: 600px){
+    
+    .about-me-grid{
+        grid-template-areas:
+        "intro"
+        "img"
+        "outro"
+        "reihenfolge"
+        "open-source"
+        "datenschutz"
+        "impressum"
+    }
+
+    .about-me-img{
+        max-width: 600px;
+    }
+}
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tango Tübingen | Milonga-Kalender & Community.</title>
+    <meta name="description" content="Alle Milongas, alle Lehrer, alle Community-Angebote. Die Tübinger Tango-Szene auf einen Blick.">
+    <link rel="canonical" href="https://tangotübingen.de/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tangotübingen.de/">
+    <meta property="og:title" content="Tango Tübingen | Milonga-Kalender & Community">
+    <meta property="og:description" content="Alle Milongas, alle Lehrer, alle Community-Angebote. Die Tübinger Tango-Szene auf einen Blick.">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:site_name" content="Tango in Tübingen">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tangotübingen.de/">
+    <meta property="twitter:title" content="Tango Tübingen | Milonga-Kalender & Community">
+    <meta property="twitter:description" content="Der Milonga-Kalender für Tübingen. Alle Milongas, alle Lehrer, alle Community-Angebote.">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+<h1>Tango Argentino in Tübingen: Alle Milongas, alle Lehrer, alle Community-Angebote</h1>
+
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Tango in Tübingen",
+  "url": "https://tangotübingen.de/",
+  "description": "Der Milonga-Kalender für Tübingen. Alle Milongas, alle Lehrer, alle Community-Angebote.",
+  "inLanguage": "de-DE",
+  "author": {
+    "@type": "Person",
+    "name": "Christian Leroy",
+    "url": "https://christianleroy.de/tango"
+  }
+}
+</script>   
+
+<script data-goatcounter="https://tangotue.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<!-- Website Header / Navigation -->
+ <div class="site-container">
+<header>
+   <nav aria-label="Hauptnavigation">
+        <div class="header-container">
+            <div class="website-title">
+                <span class="title1">Tango in</span>
+                <span class="title2">Tübingen</span>
+            </div>
+        <div class="link-container">
+        <a class="header-link" href="#tanzen">Tanzen</a>
+        <a class="header-link" href="#lernen">Lernen</a>
+        <a class="header-link" href="#mitwirken">Mitwirken</a>
+        </div>
+        </div>
+   </nav>
+</header>
+        
+<main id="main-content">
+<section class="section" id="tanzen" aria-labelledby="heading-tanzen">
+    <h2 id="heading-tanzen">Tango tanzen</h2>
+    <p>Dieser Milonga-Kalender gibt einen vollständigen Überblick über alle Milongas und Practicas, die in Tübingen stattfinden.</p>
+
+        <!-- Milonga-Kalender -->
+    <div class="milonga-container">
+        <ol id="cal" class="milonga-grid"></ol>
+        <div id="status-message" class="sr-only" role="status" aria-live="polite"></div>
+        <div class="milonga-cal-buttons">
+                <button type="button" class="button" id="show-more">Mehr anzeigen</button>
+                <button type="button" class="button" id="show-less">Einklappen</button>
+        </div>
+    </div>
+        <script src="js/milonga-cal.js"></script>
+        <script>
+        initMilongaCal().then(() => {
+            generateAllMilongaSchemas()
+        })
+        </script>
+</section>
+
+<!-- Section: Learning -->
+
+<section class="section" id="lernen" aria-labelledby="heading-lernen">
+    <h2 id="heading-lernen">Tango lernen</h2>
+    <p>
+        Wer Tango Argentino lernen möchte findet hier alle mir bekannten Tanzlehrer:innen verlinkt, die als aktiver Teil der Tübinger Community unterrichten.
+        Details zu den Angeboten sind den jeweiligen Websites zu entnehmen – dazu einfach auf den Namen klicken.</p>
+
+
+    <ol class="teacher-container"></ol>
+    <!-- Fügt Lehrer:innen ein. -->
+    <script src="js/teacher-list.js"></script>
+    <script>init()</script>   
+
+    <p>
+        Weiterhin gibt es die Möglichkeit, einen 
+        <a href=https://buchung.hsp.uni-tuebingen.de/angebote/aktueller_zeitraum/_Tango_Argentino.html target="_blank" rel="noopener noreferrer">Tango-Crashkurs<span class="sr-only"> (öffnet in neuem Tab)</span></a> 
+        beim Hochschulsport der Universität Tübingen zu belegen.
+    </p>
+</section>
+
+<!-- Section: Community -->
+
+<section class="section" id="mitwirken" aria-labelledby="heading-mitwirken">
+    <h2 id="heading-mitwirken">Tango Community</h2>
+    <p>
+        Der Tango in Tübingen lebt von seiner aktiven und herzlichen Community.
+        Nachfolgend sind einige Angebote zum Wahrnehmen und Mitwirken.</p>
+
+    <div class="community-container">
+        <article class="community"> 
+            <svg class="community-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Community-Symbol für Übungsabend">
+                <title>Community-Symbol für Übungsabend</title>
+                <path fill="none" stroke="#000000" stroke-width="2" d="M12 13a4 4 0 1 0 0-8a4 4 0 0 0 0 8Zm-6 9v-3a6 6 0 1 1 12 0v3M13 5c.404-1.664 2.015-3 4-3c2.172 0 3.98 1.79 4 4c-.02 2.21-1.828 4-4 4h-1h1c3.288 0 6 2.686 6 6v2M11 5c-.404-1.664-2.015-3-4-3c-2.172 0-3.98 1.79-4 4c.02 2.21 1.828 4 4 4h1h-1c-3.288 0-6 2.686-6 6v2"/></svg>
+            <div class="community-info">
+                <h3 class="community-name">Offener Übungsabend</h3>
+                <p class="community-content">Jeden Dienstag findet ab 20 Uhr ein offener Übungsabend im Weilheimer Kneiple statt. Wechselnde erfahrene Tänzer:innen zeigen einen 'Schritt der Woche' als Impuls für gemeinsames Üben und Ausprobieren. Details zur Practica finden sich im Veranstaltungskalender.</p>
+            </div>
+        </article>
+
+        <article class="community">
+            <svg class="community-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Auto-Symbol für Mitfahrgelegenheiten">
+                <title>Auto-Symbol für Mitfahrgelegenheiten</title>
+                <g fill="none"><path stroke="#000000" stroke-linejoin="round" stroke-width="4" d="M4 35v-7.29a6 6 0 0 1 3.319-5.368l.682-.34l2.31-7.91A4 4 0 0 1 14.205 11h19.688a4 4 0 0 1 3.904 3.128l2.205 7.873l.68.34A6 6 0 0 1 44 27.709V35a3 3 0 0 1-3 3h-1.997v1a4 4 0 0 1-4 4A4 4 0 0 1 31 39v-1H17v1a4 4 0 1 1-8 0v-1H7a3 3 0 0 1-3-3Z"/><path fill="#000000" d="M13.5 33a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5Zm21 0a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5Z"/><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M18 11h12l-.991-4.956C28.887 5.434 28.399 5 27.837 5h-7.674c-.563 0-1.05.434-1.172 1.044L18 11Z" clip-rule="evenodd"/><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 23h18"/></g>
+            </svg>
+            <div class="community-info">
+            <h3 class="community-name">Tango Taxi</h3>
+                <p class="community-content">In dieser Signal-Gruppe suchen und bieten Tangotänzer:innen aus Tübingen Mitfahrgelegenheiten zu umliegenden Milongas. Sonstige Diskussionen oder Veranstaltungshinweise sind nicht erwünscht.</p>
+                <a href="https://signal.group/#CjQKIJbfxvyjIAxHjBQ_QvW1eq2E0N6SKN85bmfAC1e8F9weEhDNgOpElnxKCPY6LkXpJQyt" class="button" target="_blank" rel="noopener noreferrer">Jetzt beitreten!
+                    <span class="sr-only"> (öffnet in neuem Tab)</span>
+                </a>
+            </div>            
+            
+        </article>
+
+        <article class="community">
+        <svg class="community-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 432" role="img" aria-label="WhatsApp-Symbol">
+            <title>WhatsApp-Symbol</title>
+            <path fill="#000000" d="M364.5 65Q427 127 427 214.5T364.5 364T214 426q-54 0-101-26L0 429l30-109Q2 271 2 214q0-87 62-149T214 3t150.5 62zM214 390q73 0 125-51.5T391 214T339 89.5T214 38T89.5 89.5T38 214q0 51 27 94l4 6l-18 65l67-17l6 3q42 25 90 25zm97-132q9 5 10 7q4 6-3 25q-3 8-15 15.5t-21 9.5q-18 2-33-2q-17-6-30-11q-8-4-15.5-8.5t-14.5-9t-13-9.5t-11.5-10t-10.5-10.5t-8.5-9.5t-7-8.5t-5.5-7t-3.5-5L128 222q-22-29-22-55q0-24 19-44q6-7 14-7q6 0 10 1q8 0 12 9q2 3 6 13l7 17.5l3 8.5q3 5 1 9q-3 7-5 9l-3 3l-3 3.5l-2 2.5q-6 6-3 11q13 22 30 37q13 11 43 26q7 3 11-1q12-15 17-21q4-6 12-3q6 3 36 17z"/>
+        </svg>
+        <div class="community-info">
+                <h3 class="community-name">Youngsters</h3>
+                <p class="community-content"> Eine Whatsapp-Gruppe für junge Tangotänzer:innen. Zum Austauschen und Verabreden. Egal ob für eine Milonga in Tübingen oder fürs nächste Tango Youth Gathering.</p>
+                <a href="https://chat.whatsapp.com/Bp2oDqTvqzPGmkBczPHMTm" class="button" target="_blank" rel="noopener noreferrer">Jetzt beitreten!
+                    <span class="sr-only"> (öffnet in neuem Tab)</span>
+                </a>
+            </div>
+        </article>
+    </div>
+</section>
+</main>
+
+<!-- Website Footer -->
+<footer>
+   <nav aria-label="Fußnavigation">
+        <div class="footer-container">
+                <span class="author">Christian Leroy</span>
+                <a class="contact" href="contact.html">Kontakt & Impressum</a>
+        </div>
+   </nav>
+</footer>
+</div>
+</body>
+
+</html>
