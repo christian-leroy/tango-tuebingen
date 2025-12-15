@@ -283,7 +283,7 @@ button:focus {
 /* ––––––– Ende Barrierefreiheit ––––––– */
 
 
-/* ––––––– Footer ––––––– */
+/* ––––––– Header ––––––– */
 .header-container a{
     font-family: var(--primary-font);
     font-weight: 500;
@@ -301,6 +301,7 @@ button:focus {
             align-items: flex-end;
             font-family: var(--primary-font);
             font-size: var(--medium);
+            font-weight: var(--accent-weight);
             gap: 1rem; 
             margin-top: 40px;
             margin-bottom: 20px;
