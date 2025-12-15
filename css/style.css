@@ -537,7 +537,7 @@ button:focus {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: clamp(0.5rem, 0.5rem + 1vw, 1.0rem);
+    gap: clamp(0.5rem, 0.5rem + 1vw, 0.8rem);
 
 }
 
@@ -573,6 +573,7 @@ button:focus {
     border-radius: 50%;
     font-weight: 500;
     flex-shrink: 0;
+    margin-top: 4.5px;
 }
 
 .button{
