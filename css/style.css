@@ -318,7 +318,7 @@ button:focus {
 
     .link-container{
         display: flex;
-        font-weight: 500;
+        font-weight: var(--accent-weight);
         gap: clamp(0.5rem, 1.0rem + 1vw, 5rem);
         border-top: 1px solid black; /* Farbe anpassen */
         padding-top: 6px; /* Abstand zwischen Strich und Links */
