@@ -125,9 +125,6 @@ a:hover{
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
    BARRIEREFREIHEIT
    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-   Alle Regeln für Barrierefreiheit (Accessibility) an einem Ort
-   zusammengefasst für bessere Wartbarkeit und Übersicht.
-   –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Screen Reader Only - macht Elemente visuell unsichtbar, aber für Screen Reader zugänglich */
 h1, .sr-only {
@@ -379,7 +376,7 @@ button:focus {
         grid-template-areas: 
         "day time ."
         "day title dj"
-        ". location location" /* Je nach Breakpoint unten rechts dj oder location*/
+        ". location location" 
         ". desc desc";
     }
 
@@ -388,7 +385,7 @@ button:focus {
         grid-template-areas: 
          "day time ."
         "day title dj"
-        ". location dj" /* Je nach Breakpoint unten rechts dj oder location*/  
+        ". location dj" 
         ". desc desc";
     }
 }
@@ -507,8 +504,6 @@ button:focus {
 #show-less:hover {
     color: var(--accent-color);
 }
-
-
 
 /* ––––––– Section 2: Lernen ––––––– */
 
@@ -665,4 +660,3 @@ button:focus {
         max-width: 600px;
     }
 }
-
