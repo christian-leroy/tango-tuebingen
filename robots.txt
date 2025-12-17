@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://tangotübingen.de/sitemap.xml
+Sitemap: https://tangotuebingen.de/sitemap.xml
