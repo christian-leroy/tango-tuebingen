@@ -168,7 +168,8 @@ function createMilongaHTML(milonga){
     // Get all data and format if necessary
     const weekday = dayNames[milonga.date.getDay()]
     const weekdayFull = dayNamesFull[milonga.date.getDay()]
-    const date = milonga.date.getDate()
+    const date = milonga.date.getDate();
+    const year = milonga.date.getFullYear();
     const month = monthNames[milonga.date.getMonth()]
     const time = milonga.start_time + " bis " + milonga.end_time + " Uhr";
     const title = milonga.title;
@@ -182,7 +183,9 @@ function createMilongaHTML(milonga){
 
     html =
         `<li>
-            <article class = "milonga" aria-label="${title}, ${weekdayFull} ${date}. ${month}, ${time}. Musik ${dj_style} von ${dj}.">
+            <article class = "milonga" tabindex="0" 
+            aria-label="${weekdayFull}, ${date} ${month} ${year}: ${title}. Von ${time}. Musik von ${dj}. Der Stil der Musik ist: ${dj_style}.
+            Veranstaltungsort: ${venue} ${street} ${city}">
                 <time class = "milonga-date" style = "grid-area: day" datetime="${isoDate}">
                     <div class = "weekday" style = "grid-area: day" aria-label="${weekdayFull}">${weekday}</div>
                     <div class = "date">${date}</div>
