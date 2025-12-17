@@ -209,5 +209,68 @@
     "event_type": "milonga",
     "url": null,
     "description": null
+    },
+
+    {
+    "title": "Milonga im Holz & Form",
+    "date": "2026-01-10",
+    "dj": "DJ Urban",
+    "style": "Traditionell",
+    "start_time": "20:00",
+    "end_time": "24:00",
+    "venue": "Tanz-Atelier",
+    "street": "Provenceweg",
+    "house_number": "22",
+    "postal_code": "72072",
+    "city": "Tübingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": null,
+    "currency": "EUR",
+    "event_type": "milonga",
+    "url": null,
+    "description": null
+    },
+
+    {
+    "title": "Milonga im Holz & Form",
+    "date": "2026-02-14",
+    "dj": "DJ Urban",
+    "style": "Traditionell",
+    "start_time": "20:00",
+    "end_time": "24:00",
+    "venue": "Tanz-Atelier",
+    "street": "Provenceweg",
+    "house_number": "22",
+    "postal_code": "72072",
+    "city": "Tübingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": null,
+    "currency": "EUR",
+    "event_type": "milonga",
+    "url": null,
+    "description": null
+    },
+
+    {
+    "title": "Milonga im Holz & Form",
+    "date": "2026-03-14",
+    "dj": "DJ Urban",
+    "style": "Traditionell",
+    "start_time": "20:00",
+    "end_time": "24:00",
+    "venue": "Tanz-Atelier",
+    "street": "Provenceweg",
+    "house_number": "22",
+    "postal_code": "72072",
+    "city": "Tübingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": null,
+    "currency": "EUR",
+    "event_type": "milonga",
+    "url": null,
+    "description": null
     }
 ]
