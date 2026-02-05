@@ -123,10 +123,10 @@ a:hover{
 
 
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-   BARRIEREFREIHEIT
+   Accessibility
    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-/* Screen Reader Only - macht Elemente visuell unsichtbar, aber für Screen Reader zugänglich */
+/* Visually hides elements that are only useful for screen readers */
 h1, .sr-only {
     position: absolute;
     width: 1px;
@@ -151,16 +151,13 @@ h1, .sr-only {
     border-width: 0;
 }
 
-/* Level 3 Barrierefreiheit: Resets für semantische HTML-Elemente */
-/* Überschreibt Browser-Defaults, damit Grid-Layout unverändert bleibt */
-
-/* <ol> als Grid-Container - entfernt Nummern und Padding */
+/* <ol> as grid container - removes numbers and padding */
 ol.milonga-grid {
     list-style: none;
     padding: 0;
 }
 
-/* <li> wird transparent - <article> wird direktes Grid-Item */
+/* <li> transparent - <article> will be grid item */
 .milonga-grid li {
     display: contents;
 }
@@ -182,21 +179,18 @@ address.milonga-location {
     font-style: normal;
 }
 
-/* Barrierefreiheit: Reduzierte Bewegung respektieren */
 @media (prefers-reduced-motion: no-preference) {
     html {
         scroll-behavior: smooth;
     }
 }
 
-/* Barrierefreiheit: Höherer Kontrast für Nutzer, die das wünschen */
 @media (prefers-contrast: more) {
     :root {
         --secondary-color: #595959;
     }
 }
 
-/* Barrierefreiheit: Skip-Link für Tastaturnutzer */
 .skip-link {
     position: absolute;
     top: -100px;
@@ -214,7 +208,6 @@ address.milonga-location {
     top: 0;
 }
 
-/* Barrierefreiheit: Fehlermeldungen */
 .error-message {
     background-color: #fef2f2;
     border: 2px solid #dc2626;
@@ -228,7 +221,6 @@ address.milonga-location {
     margin: 0;
 }
 
-/* Barrierefreiheit: Fokus-Indikatoren für Tastaturnutzer */
 a:focus,
 button:focus {
     outline: 1.5px solid var(--accent-color);
@@ -251,7 +243,6 @@ button:focus {
     outline-offset: 3px;
 }
 
-/* Moderne Browser: Fokus nur bei Tastatur-Navigation */
 @supports selector(:focus-visible) {
     a:focus:not(:focus-visible),
     button:focus:not(:focus-visible) {
@@ -277,7 +268,7 @@ button:focus {
     }
 }
 
-/* ––––––– Ende Barrierefreiheit ––––––– */
+/* –––––––––––––– */
 
 
 /* ––––––– Header ––––––– */
@@ -303,7 +294,7 @@ button:focus {
             margin-top: 40px;
             margin-bottom: 20px;
 }        
-        /* Website title are two columns with one word each */
+    /* Website title are two columns with one word each */
     .website-title{
         display: flex;
         flex-direction: column;
@@ -318,8 +309,8 @@ button:focus {
         display: flex;
         font-weight: var(--accent-weight);
         gap: clamp(0.5rem, 1.0rem + 1vw, 5rem);
-        border-top: 1px solid black; /* Farbe anpassen */
-        padding-top: 6px; /* Abstand zwischen Strich und Links */
+        border-top: 1px solid black; 
+        padding-top: 6px; 
 
     }
 
@@ -397,12 +388,10 @@ button:focus {
         align-items: center;
     }
         .weekday{
-            /* font-family: var(--secondary-font); */
             font-size: var(--small);
             font-weight: 300;
         }
         .date{
-            /* font-family: var(--secondary-font); */
             font-size: var(--large);
             font-weight: 300;
         }
@@ -424,7 +413,7 @@ button:focus {
         /* margin-top: -0.5rem; */
     }
     
-        .street, .city{
+    .street, .city{
          /* Prevents line breaks such as 72072<br>Tübingen */
     }
 
@@ -450,13 +439,12 @@ button:focus {
         display: flex;
         align-items: center;
         gap: 1rem;
-        /* font-family: var(--secondary-font); */
     }
     .month-divider::after{
     content: "";
     flex: 1;
     height: 1px;
-    background: var(--secondary-color);
+    background: black;
     }
 
     .anmerkung{
