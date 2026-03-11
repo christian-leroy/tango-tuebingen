@@ -7,7 +7,7 @@ Community-Website für die Tübinger Tango-Szene: Milonga-Kalender, Lehrer:innen
 ## Philosophie
 
 - **Schnell & einfach.** Kein Bloat, kein Framework. Statisches HTML, CSS und Vanilla JS. Beim Aufruf der Seite sind direkt die nächsten Veranstaltungen sichtbar.
-- **Privacy first.** Keine Cookies, keine Werbung, keine personenbezogenen Daten. Nur miniamle Analytics über [GoatCounter](https://www.goatcounter.com/) (Open Source, DSGVO-konform).
+- **Privacy first.** Keine Cookies, keine Werbung, keine personenbezogenen Daten. Nur minimale Analytics über [GoatCounter](https://www.goatcounter.com/) (Open Source, DSGVO-konform).
 - **Accessibility.** Semantisches HTML, Skip-Links, ARIA-Labels, Screenreader-optimiert.
 
 ## Aufbau
@@ -17,6 +17,7 @@ Community-Website für die Tübinger Tango-Szene: Milonga-Kalender, Lehrer:innen
 - `data/teachers.json` — Lehrer:innen-Daten
 - `js/` — Kalender-Logik und Lehrer:innen-Liste
 - `css/style.css` — Styling mit selbst gehosteten Schriften 
+- `script` – Skripte zur Automatisierung
 
 ## Du willst das auch für deine Stadt?
 
