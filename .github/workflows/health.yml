@@ -1,0 +1,13 @@
+name: Site Health Check
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Täglich um 06:00 UTC (08:00 MESZ / 07:00 MEZ)
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check site availability
+        run: curl --fail --silent --show-error --max-time 30 https://tangotuebingen.de
