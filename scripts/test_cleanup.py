@@ -1,6 +1,8 @@
 import unittest
 from cleanup import isOver
+from ical_export import createLocation, createUid
 import datetime as dt
+
 
 
 class TestIsOver(unittest.TestCase):
@@ -8,6 +10,26 @@ class TestIsOver(unittest.TestCase):
         static_today = dt.date(2026, 7, 2)
         self.assertTrue(isOver("2026-07-01", static_today), "2026-07-01 is before 2026-07-02")
         self.assertFalse(isOver("2026-07-02", static_today), "2026-07-02 is NOT before 2026-07-02")
+
+class TestCreateLocation(unittest.TestCase):
+    def test_createLocation(self):
+        test_milonga = {"venue": "Tanz-Atelier",
+                        "street": "Provenceweg",
+                        "house_number": "22",
+                        "postal_code": "72072",
+                        "city": "Tübingen"
+                        }
+        self.assertTrue(createLocation(test_milonga) == "Tanz-Atelier, Provenceweg 22, 72072 Tübingen")
+
+class TestCreateUid(unittest.TestCase):
+    def test_uid_has_no_spaces(self):
+        test_milonga = {"title": "Eine Test-Milonga", "date": "2026-07-02"}
+        self.assertTrue(createUid(test_milonga) == "2026-07-02-Eine-Test-Milonga@tangotuebingen.de")
+
+    def test_uid_has_no_special_char(self):
+        test_milonga = {"title": "!Eine Test-Milongä & Practica", "date": "2026-07-02"}
+        self.assertTrue(createUid(test_milonga) == "2026-07-02-Eine-Test-Milong-Practica@tangotuebingen.de")
+
 
 if __name__ == "__main__":
     unittest.main()
