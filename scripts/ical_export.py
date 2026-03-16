@@ -102,7 +102,7 @@ def eventWasChanged(old: Event, new: Event) -> bool:
     Compares every field of two events and returns true if there is a difference in at least one field.
     """
     for prop in new:
-        if prop in ("sequence", "dtstamp"):
+        if prop in ("SEQUENCE", "DTSTAMP"):
             continue
         if new[prop] != old.get(prop):
             return True
