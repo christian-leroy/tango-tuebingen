@@ -53,9 +53,9 @@ def createEndTime(milonga) -> datetime:
 
 def createDescription(milonga) -> str:
     """
-    Creates the description as one string, such as: "DJ Urban – traditionell"
+    Creates the description as one string, such as: "DJ Urban – traditionell\nhttps://tangotuebingen.de"
     """
-    desc: str = milonga["dj"] + " – " + milonga["style"]
+    desc: str = milonga["dj"] + " – " + milonga["style"] + "\nhttps://tangotuebingen.de"
 
     return desc
 
