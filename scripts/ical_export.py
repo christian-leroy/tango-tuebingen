@@ -84,7 +84,7 @@ def createEventFromMilonga(milonga) -> Event:
     return event
 
 
-def getOldCalendar(calendar_path: Path) -> dict[str, Event]:
+def getOldCalendar(calendar_path: Path) -> dict[str, Event] | None:
     """
     Reads the existing .ics file and returns a dictionary of events with uid as key.
     """
