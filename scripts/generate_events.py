@@ -1,15 +1,11 @@
 import json
 import datetime as dt
 from datetime import timedelta
-import calendar
 from pathlib import Path
 
-def nextDay(baseline_weekday: int, event_weekday: int) -> int:
-    """Calculates how many days are between two weekdays. Weekdays are represented as integers from 0 to 6.
-    For example: 
-    - Between Sunday and Sunday it is 7. 
-    - Between Sunday and Monday it is 1. 
-    - Between Sunday and Saturday it is 6."""
+def daysUntilWeekday(baseline_weekday: int, event_weekday: int) -> int:
+    """Returns the number of days from baseline_weekday to the next occurrence of event_weekday (1–7).
+    Weekdays are integers 0 (Monday) to 6 (Sunday). Same weekday returns 7."""
     
     if baseline_weekday == event_weekday:
         return 7
@@ -22,9 +18,7 @@ def nextDay(baseline_weekday: int, event_weekday: int) -> int:
     
 
 def nextDate(milonga_template, baseline: dt.date) -> dt.date:
-    """
-    Calculates the next date of the next milonga.
-    """
+    """Calculates the next occurrence date for a recurring event based on a given baseline date."""
     # Extract relevant information
     baseline_weekday = baseline.weekday()    
     recurrence = milonga_template["recurrence"]
@@ -32,7 +26,7 @@ def nextDate(milonga_template, baseline: dt.date) -> dt.date:
 
     # Weekly Case
     if recurrence == "weekly":
-        days_offset = nextDay(baseline_weekday, event_weekday)
+        days_offset = daysUntilWeekday(baseline_weekday, event_weekday)
         next_day = baseline + timedelta(days = days_offset)
         return next_day
         
@@ -42,9 +36,7 @@ def nextDate(milonga_template, baseline: dt.date) -> dt.date:
 
 
 def createNextMilonga(milonga_template: dict, baseline: dt.date) -> dict:
-    """
-    Creates the next milonga based on a template and returns the dict ready to be dumped to JSON.
-    """
+    """Creates a single event dict for the next occurrence of a template from the given baseline."""
    
     next_date = nextDate(milonga_template, baseline).isoformat()
     milonga = {
@@ -72,9 +64,7 @@ def createNextMilonga(milonga_template: dict, baseline: dt.date) -> dict:
 
 
 def createRegulars(milonga_templates: list[dict], days: int) -> list[dict]:
-    """
-    Creates all regular milongas from today up until days (inclusive).
-    """
+    """Creates all occurrences for the given templates within the next `days` days."""
     milongas = []
 
     for template in milonga_templates:
@@ -121,14 +111,4 @@ def main():
 
 if __name__ == "__main__":                                                                                                       
     main()                                                                                                                       
-                                 
-
-                
-
-
-"""
-1. Take some date as baseline. Define a limit.
-2. Find next date from that baseline.
-3. If next date <= limit: create event
-
-"""
+ 

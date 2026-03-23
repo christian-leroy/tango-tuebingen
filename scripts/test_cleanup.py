@@ -1,7 +1,7 @@
 import unittest
 from cleanup import isOver
 from ical_export import createLocation, createUid
-from regular import nextDay
+from generate_events import daysUntilWeekday
 import datetime as dt
 
 
@@ -33,13 +33,13 @@ class TestCreateUid(unittest.TestCase):
 
 class TestCreateNext(unittest.TestCase):
     def testNextDay(self):
-        self.assertTrue(nextDay(6,6) == 7) # Sunday to Sunday: 7 days
-        self.assertTrue(nextDay(6,0) == 1) # Sunday to Monday: 1 day
-        self.assertTrue(nextDay(6,5) == 6) # Sunday to Friday: 6 days 
+        self.assertTrue(daysUntilWeekday(6,6) == 7) # Sunday to Sunday: 7 days
+        self.assertTrue(daysUntilWeekday(6,0) == 1) # Sunday to Monday: 1 day
+        self.assertTrue(daysUntilWeekday(6,5) == 6) # Sunday to Friday: 6 days 
 
-        self.assertTrue(nextDay(0,0) == 7) # Monday to Monday: 7 days
-        self.assertTrue(nextDay(0,1) == 1) # Monday to Tuesday: 1 day
-        self.assertTrue(nextDay(1,0) == 6) # Monday to Sunday: 6 days
+        self.assertTrue(daysUntilWeekday(0,0) == 7) # Monday to Monday: 7 days
+        self.assertTrue(daysUntilWeekday(0,1) == 1) # Monday to Tuesday: 1 day
+        self.assertTrue(daysUntilWeekday(1,0) == 6) # Monday to Sunday: 6 days
 
 if __name__ == "__main__":
     unittest.main()
