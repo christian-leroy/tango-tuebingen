@@ -52,7 +52,7 @@ jobs:
         run: python scripts/ical_export.py
       - name: Commit calendar
         run: |
-          git add calendar/milongas.ics
+          git add milongas-tue.ics
           git diff --cached --quiet || git commit -m "Update calendar"
           git push
       - name: Setup Pages
