@@ -2,7 +2,7 @@
   {
     "title": "Practica im Hirsch",
     "recurrence": "weekly",
-    "weekday": "monday",
+    "weekday": 0,
     "dj": "DJ Caren",
     "style": "Traditionell",
     "start_time": "11:30",
@@ -23,7 +23,7 @@
   {
     "title": "Practica und Schritt der Woche",
     "recurrence": "weekly",
-    "weekday": "tuesday",
+    "weekday": 1,
     "dj": "DJ Urban",
     "style": "Traditionell",
     "start_time": "20:00",

@@ -56,6 +56,15 @@ def main():
     with open(archive, "w") as file:
         json.dump(data, file, indent=2, ensure_ascii=False)
 
+    # Step 2: Check for duplicates
+    # seen = set()
+    # unique = []                                                                                       
+    # for m in current_milongas:
+    #     key = (m["date"], m["title"])                                                                 
+    #     if key not in seen:
+    #         seen.add(key)                                                                             
+    #         unique.append(m) 
+
     # Step 2: Update milongas to only include milongas that are in the future or today
     current_milongas.sort(key=lambda milonga: milonga["title"])
     with open(milongas, "w") as file:
