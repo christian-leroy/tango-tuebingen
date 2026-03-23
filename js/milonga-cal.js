@@ -10,6 +10,9 @@ let lastMilongaInCurrentCal = -1 // index of milongas
 let currentMonth = -1 // Will be a Date object once first milongas has been displayed
 
 async function initMilongaCal(){
+    /**
+     * Initializes the calendar.
+     */
     milongas = await getMilongas()
     milongas = processMilongas(milongas)
     displayNextMilongas(defaultAmount)
@@ -53,8 +56,9 @@ function displayNextMilongas(k){
  * @param {number} k – The number of milongas to display
  * */
     // Sanity check
-    if (k > milongas.length){
-        k = milongas.length;
+    let undisplayedMilongas = milongas.length - (lastMilongaInCurrentCal + 2)
+    if (k > undisplayedMilongas){
+        k = undisplayedMilongas;
     }
 
     // For the next k milongas check

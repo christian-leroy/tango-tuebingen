@@ -116,6 +116,7 @@ def createCalendarFromJSON(milonga_path: Path, calendar_path: Path) -> Calendar:
     cal = Calendar()
     cal.add('prodid', '-//Tango Tübingen//Milonga//DE')
     cal.add('version', '2.0')
+    cal.add('x-wr-calname', 'Milongas Tübingen')
 
     old_cal = getOldCalendar(calendar_path)
 
