@@ -49,7 +49,7 @@ jobs:
           git diff --cached --quiet || git commit -m "Cleanup: archive old milongas"
           git push
       - name: Generate iCal export
-        run: python scripts/ical_export.py
+        run: python scripts/export_to_ical.py
       - name: Commit calendar
         run: |
           git add milongas-tue.ics
