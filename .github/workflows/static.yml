@@ -38,7 +38,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install icalendar pytz
       - name: Run tests
-        run: python scripts/test_cleanup.py
+        run: python scripts/test_scripts.py
       - name: Run cleanup
         run: python scripts/cleanup.py
       - name: Commit cleanup
