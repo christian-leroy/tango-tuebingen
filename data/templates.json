@@ -18,7 +18,8 @@
     "currency": "EUR",
     "event_type": "practica",
     "url": null,
-    "description": null
+    "description": null,
+    "published": true
   },
   {
     "title": "Practica und Schritt der Woche",
@@ -39,7 +40,8 @@
     "currency": "EUR",
     "event_type": "practica",
     "url": null,
-    "description": null
+    "description": null,
+    "published": true
   },
   {
     "title": "Milonga La Viruta",
@@ -61,7 +63,8 @@
     "currency": "EUR",
     "event_type": "milonga",
     "url": null,
-    "description": null
+    "description": null,
+    "published": true
   },
   {
     "title": "Milonga Mis Amores",
@@ -83,7 +86,8 @@
     "currency": "EUR",
     "event_type": "milonga",
     "url": null,
-    "description": null
+    "description": null,
+    "published": true
   },
   {
     "title": "Klassische Milonga bei Tango Vision",
@@ -104,7 +108,8 @@
     "currency": "EUR",
     "event_type": "Milonga",
     "url": null,
-    "description": null
+    "description": null,
+    "published": true
   },
   {
     "title": "Fusion Milonga bei Tango Vision",
@@ -125,6 +130,7 @@
     "currency": "EUR",
     "event_type": "Milonga",
     "url": null,
-    "description": null
+    "description": null,
+    "published": true
   }
 ]

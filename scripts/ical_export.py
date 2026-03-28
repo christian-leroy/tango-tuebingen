@@ -122,6 +122,7 @@ def createCalendarFromJSON(milonga_path: Path, calendar_path: Path) -> Calendar:
 
     with open(milonga_path, "r") as file:
         data = json.load(file)
+        data = [x for x in data if x.get("published") == True]
         for milonga in data:
             event = createEventFromMilonga(milonga)
             
