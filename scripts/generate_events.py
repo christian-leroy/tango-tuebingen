@@ -57,7 +57,8 @@ def createNextMilonga(milonga_template: dict, baseline: dt.date) -> dict:
         "currency": milonga_template["currency"],
         "event_type": milonga_template["event_type"],
         "url": milonga_template["url"],
-        "description": milonga_template["description"]
+        "description": milonga_template["description"],
+        "published": milonga_template["published"]
     }
 
     return milonga
