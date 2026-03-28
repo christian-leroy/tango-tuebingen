@@ -88,8 +88,8 @@
   {
     "title": "Klassische Milonga bei Tango Vision",
     "recurrence": "weekly",
-    "weekday": 1,
-    "dj": "null",
+    "weekday": 4,
+    "dj": null,
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -109,8 +109,8 @@
   {
     "title": "Fusion Milonga bei Tango Vision",
     "recurrence": "weekly",
-    "weekday": 4,
-    "dj": "null",
+    "weekday": 1,
+    "dj": null,
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
