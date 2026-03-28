@@ -157,7 +157,7 @@ function processMilongas(milongas){
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     
-    return milongas.filter(element => element.date >= today)
+    return milongas.filter(element => element.date >= today && element.dj != null) // Filters out milongas without DJs as well
 }
 
 
