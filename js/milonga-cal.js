@@ -61,10 +61,10 @@ function displayNextMilongas(k){
         k = undisplayedMilongas;
     }
 
-    // For the next k milongas check
+    // Iteratively create HTML for the next k milongas
+    const oldIndex = lastMilongaInCurrentCal // to calculate how many milongas were rendered
     const goalIndex = lastMilongaInCurrentCal + k
     let html_buffer = ''
-    const oldIndex = lastMilongaInCurrentCal
 
     while (lastMilongaInCurrentCal < goalIndex) {
         const nextMilonga = lastMilongaInCurrentCal + 1
@@ -78,6 +78,10 @@ function displayNextMilongas(k){
         html_buffer += createMilongaHTML(milongas[nextMilonga])
         lastMilongaInCurrentCal +=1
     }
+
+    // Create HTML for all milongas on the last day
+    const lastDay = milongas[goalIndex].date
+
 
     milongaCalendar.insertAdjacentHTML('beforeend', html_buffer)
 
