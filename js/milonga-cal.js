@@ -56,7 +56,7 @@ function displayNextMilongas(k){
  * @param {number} k – The number of milongas to display
  * */
     // Sanity check
-    let undisplayedMilongas = milongas.length - (lastMilongaInCurrentCal + 2)
+    let undisplayedMilongas = milongas.length - (lastMilongaInCurrentCal + 1)
     if (k > undisplayedMilongas){
         k = undisplayedMilongas;
     }

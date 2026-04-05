@@ -231,9 +231,9 @@
     "published": true
   },
   {
-    "title": "Klassische Milonga bei Tango Vision",
+    "title": "Al Compas del Corazon bei Tango Vision",
     "date": "2026-04-17",
-    "dj": null,
+    "dj": "DJ Martina",
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -248,13 +248,13 @@
     "currency": "EUR",
     "event_type": "Milonga",
     "url": null,
-    "description": null,
-    "published": false
+    "description": "Practica ab 19:30 Uhr.",
+    "published": true
   },
   {
     "title": "Fusion Milonga bei Tango Vision",
     "date": "2026-04-14",
-    "dj": null,
+    "dj": "DJ Martina",
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -270,6 +270,6 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   }
 ]
