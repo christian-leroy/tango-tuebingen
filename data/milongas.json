@@ -44,7 +44,7 @@
   {
     "title": "Fusion Milonga bei Tango Vision",
     "date": "2026-04-21",
-    "dj": null,
+    "dj": "DJ Martina",
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -60,7 +60,7 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Klassische Milonga bei Tango Vision",
@@ -86,7 +86,7 @@
   {
     "title": "Klassische Milonga bei Tango Vision",
     "date": "2026-04-24",
-    "dj": null,
+    "dj": "DJ Elmar",
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -102,7 +102,28 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
+  },
+  {
+    "title": "Klassische Milonga bei Tango Vision",
+    "date": "2026-05-01",
+    "dj": "DJ Jonas Maria",
+    "style": "Traditionell",
+    "start_time": "20:30",
+    "end_time": "24:00",
+    "venue": "Tango Vision",
+    "street": "Wörthstraße",
+    "house_number": "55",
+    "postal_code": "72764",
+    "city": "Reutlingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": 10,
+    "currency": "EUR",
+    "event_type": "Milonga",
+    "url": null,
+    "description": null,
+    "published": true
   },
   {
     "title": "Milonga Mis Amores",
