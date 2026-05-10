@@ -3,54 +3,10 @@ VERSION:2.0
 PRODID:-//Tango Tübingen//Milonga//DE
 X-WR-CALNAME:Milongas Tübingen
 BEGIN:VEVENT
-SUMMARY:Fusion Milonga bei Tango Vision
-DTSTART;TZID=Europe/Berlin:20260505T203000
-DTEND;TZID=Europe/Berlin:20260506T000000
-DTSTAMP:20260505T080423Z
-UID:2026-05-05-Fusion-Milonga-bei-Tango-Vision@tangotuebingen.de
-SEQUENCE:0
-DESCRIPTION:DJ Martina – Neo\nhttps://tangotuebingen.de
-LOCATION:Tango Vision\, Wörthstraße 55\, 72764 Reutlingen
-URL:https://tangotuebingen.de
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Klassische Milonga bei Tango Vision
-DTSTART;TZID=Europe/Berlin:20260508T203000
-DTEND;TZID=Europe/Berlin:20260509T000000
-DTSTAMP:20260505T080423Z
-UID:2026-05-08-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
-SEQUENCE:0
-DESCRIPTION:DJ Major Tom – Traditionell\nhttps://tangotuebingen.de
-LOCATION:Tango Vision\, Wörthstraße 55\, 72764 Reutlingen
-URL:https://tangotuebingen.de
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Milonga La Viruta
-DTSTART;TZID=Europe/Berlin:20260509T200000
-DTEND;TZID=Europe/Berlin:20260510T000000
-DTSTAMP:20260505T080423Z
-UID:2026-05-09-Milonga-La-Viruta@tangotuebingen.de
-SEQUENCE:0
-DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
-LOCATION:Tanz-Atelier\, Provenceweg 22\, 72072 Tübingen
-URL:https://tangotuebingen.de
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Milonga Mis Amores
-DTSTART;TZID=Europe/Berlin:20260506T190000
-DTEND;TZID=Europe/Berlin:20260506T230000
-DTSTAMP:20260505T080423Z
-UID:2026-05-06-Milonga-Mis-Amores@tangotuebingen.de
-SEQUENCE:0
-DESCRIPTION:DJ Anja – Traditionell\nhttps://tangotuebingen.de
-LOCATION:Encanto\, Bei den Pferdeställen 2\, 72072 Tübingen
-URL:https://tangotuebingen.de
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Milonga Mis Amores
 DTSTART;TZID=Europe/Berlin:20260603T190000
 DTEND;TZID=Europe/Berlin:20260603T230000
-DTSTAMP:20260505T080423Z
+DTSTAMP:20260510T033153Z
 UID:2026-06-03-Milonga-Mis-Amores@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Anja – Traditionell\nhttps://tangotuebingen.de
@@ -61,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:Practica im Hirsch
 DTSTART;TZID=Europe/Berlin:20260511T113000
 DTEND;TZID=Europe/Berlin:20260511T130000
-DTSTAMP:20260505T080423Z
+DTSTAMP:20260510T033153Z
 UID:2026-05-11-Practica-im-Hirsch@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Caren – Traditionell\nhttps://tangotuebingen.de
@@ -69,11 +25,22 @@ LOCATION:Hirsch Begegnungsstätte\, Hirschgasse 9\, 72070 Tübingen
 URL:https://tangotuebingen.de
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Practica im Hirsch
+DTSTART;TZID=Europe/Berlin:20260518T113000
+DTEND;TZID=Europe/Berlin:20260518T130000
+DTSTAMP:20260510T033153Z
+UID:2026-05-18-Practica-im-Hirsch@tangotuebingen.de
+SEQUENCE:0
+DESCRIPTION:DJ Caren – Traditionell\nhttps://tangotuebingen.de
+LOCATION:Hirsch Begegnungsstätte\, Hirschgasse 9\, 72070 Tübingen
+URL:https://tangotuebingen.de
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Practica und Schritt der Woche
-DTSTART;TZID=Europe/Berlin:20260505T200000
-DTEND;TZID=Europe/Berlin:20260505T223000
-DTSTAMP:20260505T080423Z
-UID:2026-05-05-Practica-und-Schritt-der-Woche@tangotuebingen.de
+DTSTART;TZID=Europe/Berlin:20260512T200000
+DTEND;TZID=Europe/Berlin:20260512T223000
+DTSTAMP:20260510T033153Z
+UID:2026-05-12-Practica-und-Schritt-der-Woche@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
 LOCATION:Weilheimer Kneiple\, Alte Landstraße 36\, 72072 Tübingen
@@ -81,10 +48,10 @@ URL:https://tangotuebingen.de
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Practica und Schritt der Woche
-DTSTART;TZID=Europe/Berlin:20260512T200000
-DTEND;TZID=Europe/Berlin:20260512T223000
-DTSTAMP:20260505T080423Z
-UID:2026-05-12-Practica-und-Schritt-der-Woche@tangotuebingen.de
+DTSTART;TZID=Europe/Berlin:20260519T200000
+DTEND;TZID=Europe/Berlin:20260519T223000
+DTSTAMP:20260510T033153Z
+UID:2026-05-19-Practica-und-Schritt-der-Woche@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
 LOCATION:Weilheimer Kneiple\, Alte Landstraße 36\, 72072 Tübingen
