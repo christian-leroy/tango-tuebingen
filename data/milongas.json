@@ -23,7 +23,7 @@
   {
     "title": "Fusion Milonga bei Tango Vision",
     "date": "2026-05-26",
-    "dj": null,
+    "dj": "DJ Hans-Jürgen",
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -39,12 +39,12 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Klassische Milonga bei Tango Vision",
     "date": "2026-05-22",
-    "dj": null,
+    "dj": "DJ Francisco",
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -60,12 +60,12 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Klassische Milonga bei Tango Vision",
     "date": "2026-05-29",
-    "dj": null,
+    "dj": "DJ Thiemo El Gato",
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -81,7 +81,7 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Milonga Mis Amores",
