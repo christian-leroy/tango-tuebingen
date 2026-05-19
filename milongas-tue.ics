@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Fusion Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260519T203000
 DTEND;TZID=Europe/Berlin:20260520T000000
-DTSTAMP:20260519T211541Z
+DTSTAMP:20260519T211720Z
 UID:2026-05-19-Fusion-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Martina – Neo\nhttps://tangotuebingen.de
@@ -17,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:Fusion Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260526T203000
 DTEND;TZID=Europe/Berlin:20260527T000000
-DTSTAMP:20260519T211541Z
+DTSTAMP:20260519T211720Z
 UID:2026-05-26-Fusion-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Hans-Jürgen – Neo\nhttps://tangotuebingen.de
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 SUMMARY:Klassische Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260522T203000
 DTEND;TZID=Europe/Berlin:20260523T000000
-DTSTAMP:20260519T211541Z
+DTSTAMP:20260519T211720Z
 UID:2026-05-22-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Francisco – Traditionell\nhttps://tangotuebingen.de
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:Klassische Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260529T203000
 DTEND;TZID=Europe/Berlin:20260530T000000
-DTSTAMP:20260519T211541Z
+DTSTAMP:20260519T211720Z
 UID:2026-05-29-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Thiemo El Gato – Traditionell\nhttps://tangotuebingen.de
@@ -50,7 +50,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga Mis Amores
 DTSTART;TZID=Europe/Berlin:20260603T190000
 DTEND;TZID=Europe/Berlin:20260603T230000
-DTSTAMP:20260519T211541Z
+DTSTAMP:20260519T211720Z
 UID:2026-06-03-Milonga-Mis-Amores@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Anja – Traditionell\nhttps://tangotuebingen.de
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:Practica im Hirsch
 DTSTART;TZID=Europe/Berlin:20260525T113000
 DTEND;TZID=Europe/Berlin:20260525T130000
-DTSTAMP:20260519T211541Z
+DTSTAMP:20260519T211720Z
 UID:2026-05-25-Practica-im-Hirsch@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Caren – Traditionell\nhttps://tangotuebingen.de
@@ -72,7 +72,7 @@ BEGIN:VEVENT
 SUMMARY:Practica und Schritt der Woche
 DTSTART;TZID=Europe/Berlin:20260519T200000
 DTEND;TZID=Europe/Berlin:20260519T223000
-DTSTAMP:20260519T211541Z
+DTSTAMP:20260519T211720Z
 UID:2026-05-19-Practica-und-Schritt-der-Woche@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
@@ -83,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:Practica und Schritt der Woche
 DTSTART;TZID=Europe/Berlin:20260526T200000
 DTEND;TZID=Europe/Berlin:20260526T223000
-DTSTAMP:20260519T211541Z
+DTSTAMP:20260519T211720Z
 UID:2026-05-26-Practica-und-Schritt-der-Woche@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
