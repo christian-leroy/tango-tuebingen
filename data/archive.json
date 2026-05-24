@@ -1321,5 +1321,26 @@
     "url": null,
     "description": null,
     "published": true
+  },
+  {
+    "title": "Klassische Milonga bei Tango Vision",
+    "date": "2026-05-22",
+    "dj": "DJ Francisco",
+    "style": "Traditionell",
+    "start_time": "20:30",
+    "end_time": "24:00",
+    "venue": "Tango Vision",
+    "street": "Wörthstraße",
+    "house_number": "55",
+    "postal_code": "72764",
+    "city": "Reutlingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": 10,
+    "currency": "EUR",
+    "event_type": "Milonga",
+    "url": null,
+    "description": null,
+    "published": true
   }
 ]
