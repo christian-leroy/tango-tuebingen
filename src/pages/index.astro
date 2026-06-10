@@ -1,6 +1,7 @@
 ---
 import '../styles/style.css'
-
+import Navigation from '../components/Navigation.astro'
+import Footer from '../components/Footer.astro'
 ---
 <!DOCTYPE html>
 <html lang="de">
@@ -63,22 +64,8 @@ import '../styles/style.css'
 
 <!-- Website Header / Navigation -->
  <div class="site-container">
-<header>
-   <nav aria-label="Hauptnavigation">
-        <div class="header-container">
-            <div class="website-title">
-                <span class="title1">Tango in</span>
-                <span class="title2">Tübingen</span>
-            </div>
-        <div class="link-container">
-        <a class="header-link" href="#tanzen">Tanzen</a>
-        <a class="header-link" href="#lernen">Lernen</a>
-        <a class="header-link" href="#mitwirken">Mitwirken</a>
-        </div>
-        </div>
-   </nav>
-</header>
-        
+<Navigation />    
+
 <main id="main-content">
 <section class="section" id="tanzen" aria-labelledby="heading-tanzen">
     <h2 id="heading-tanzen">Tango tanzen</h2>
@@ -180,14 +167,8 @@ import '../styles/style.css'
 </main>
 
 <!-- Website Footer -->
-<footer>
-   <nav aria-label="Fußnavigation">
-        <div class="footer-container">
-                <span class="author">Christian Leroy</span>
-                <a class="contact" href="contact">Kontakt & Impressum</a>
-        </div>
-   </nav>
-</footer>
+<Footer />
+
 </div>
 </body>
 
