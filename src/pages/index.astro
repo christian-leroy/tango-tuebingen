@@ -1,3 +1,7 @@
+---
+import '../styles/style.css'
+
+---
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -23,15 +27,13 @@
     <meta property="twitter:description" content="Der Milonga-Kalender für Tübingen. Alle Milongas, alle Lehrer, alle Community-Angebote.">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/tangotue-favicon.png">
-    <link rel="apple-touch-icon" href="assets/images/tangotue-favicon.png">
+    <link rel="icon" type="image/png" href="/assets/images/tangotue-favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/tangotue-favicon.png">
 
     <!-- Preload critical fonts -->
-    <link rel="preload" href="assets/fonts/montserrat-400.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="assets/fonts/montserrat-600.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="assets/fonts/jetbrains-mono-300.ttf" as="font" type="font/ttf" crossorigin>
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="/assets/fonts/montserrat-400.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/assets/fonts/montserrat-600.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/assets/fonts/jetbrains-mono-300.ttf" as="font" type="font/ttf" crossorigin>
 </head>
 
 <body>
@@ -39,7 +41,7 @@
 
 <h1>Tango Argentino in Tübingen und Umgebung: Alle Milongas, alle Lehrer, alle Community-Angebote</h1>
 
- <script type="application/ld+json">
+ <script type="application/ld+json" is:inline>
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -56,7 +58,7 @@
 </script>   
 
 <script data-goatcounter="https://tangotue.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+        async src="//gc.zgo.at/count.js" is:inline></script>
 
 
 <!-- Website Header / Navigation -->
@@ -91,8 +93,8 @@
                 <button type="button" class="button" id="show-less">Einklappen</button>
         </div>
     </div>
-        <script src="js/milonga-cal.js"></script>
-        <script>
+        <script src="/js/milonga-cal.js" is:inline></script>
+        <script is:inline>
         initMilongaCal().then(() => {
             generateAllMilongaSchemas()
         })
@@ -111,8 +113,8 @@
 
     <ol class="teacher-container"></ol>
     <!-- Insert teachers. -->
-    <script src="js/teacher-list.js"></script>
-    <script>init()</script>   
+    <script src="/js/teacher-list.js" is:inline></script>
+    <script is:inline>init()</script>
 
     <!-- <p>
         Weiterhin gibt es die Möglichkeit, einen 
@@ -182,7 +184,7 @@
    <nav aria-label="Fußnavigation">
         <div class="footer-container">
                 <span class="author">Christian Leroy</span>
-                <a class="contact" href="contact.html">Kontakt & Impressum</a>
+                <a class="contact" href="contact">Kontakt & Impressum</a>
         </div>
    </nav>
 </footer>
