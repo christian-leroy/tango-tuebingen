@@ -153,8 +153,8 @@ def writeCalendarAsIcs(milonga_path: Path, calendar_path: Path):
 
 
 def main():
-    milongas = Path(__file__).parent.parent / "data" / "milongas.json"
-    calendar = Path(__file__).parent.parent / "milongas-tue.ics"
+    milongas = Path(__file__).parent.parent / "public" / "data" / "milongas.json"
+    calendar = Path(__file__).parent.parent / "public" / "milongas-tue.ics"
     writeCalendarAsIcs(milongas, calendar)
 
 if __name__ == "__main__":                                                                                                       

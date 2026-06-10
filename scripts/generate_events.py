@@ -81,8 +81,8 @@ def createRegulars(milonga_templates: list[dict], days: int) -> list[dict]:
     return milongas            
 
 def main():
-    templates = Path(__file__).parent.parent / "data" / "templates.json"
-    milongas = Path(__file__).parent.parent / "data" / "milongas.json"
+    templates = Path(__file__).parent.parent / "public" / "data" / "templates.json"
+    milongas = Path(__file__).parent.parent / "public" / "data" / "milongas.json"
     days = 14
 
     # Load templates and create all milongas

@@ -38,8 +38,8 @@ def filterMilongas(milongas: Path, today: dt.date):
 
 
 def main():
-    milongas = Path(__file__).parent.parent / "data" / "milongas.json"
-    archive = Path(__file__).parent.parent / "data" / "archive.json"
+    milongas = Path(__file__).parent.parent / "public" / "data" / "milongas.json"
+    archive = Path(__file__).parent.parent / "public" / "data" / "archive.json"
     today = dt.date.today()
 
     if not archive.exists():
