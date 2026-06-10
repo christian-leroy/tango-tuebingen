@@ -45,23 +45,31 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/milongas.json data/archive.json
+          git add public/data/milongas.json public/data/archive.json
           git diff --cached --quiet || git commit -m "Cleanup: archive old milongas"
           git push
       - name: Generate iCal export
         run: python scripts/export_to_ical.py
       - name: Commit calendar
         run: |
-          git add milongas-tue.ics
+          git add public/milongas-tue.ics
           git diff --cached --quiet || git commit -m "Update calendar"
           git push
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Install npm dependencies
+        run: npm ci
+      - name: Build Astro site
+        run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          path: 'dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
