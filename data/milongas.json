@@ -23,7 +23,7 @@
   {
     "title": "Fusion Milonga bei Tango Vision",
     "date": "2026-06-23",
-    "dj": null,
+    "dj": "DJ Martina",
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -39,7 +39,7 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Klassische Milonga bei Tango Vision",
@@ -102,7 +102,7 @@
     "event_type": "milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Milonga La Viruta",
