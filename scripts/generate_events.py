@@ -83,7 +83,7 @@ def createRegulars(milonga_templates: list[dict], days: int) -> list[dict]:
 def main():
     templates = Path(__file__).parent.parent / "data" / "templates.json"
     milongas = Path(__file__).parent.parent / "data" / "milongas.json"
-    days = 14
+    days = 15 # inclusive
 
     # Load templates and create all milongas
     with open(templates) as file:
@@ -99,6 +99,7 @@ def main():
     for milonga_to_add in next_milongas:
         seen = False
         for existing_milonga in existing_milongas:
+            # It would be a good idea to use a UUID. 
             if existing_milonga["title"] == milonga_to_add["title"] and existing_milonga["date"] == milonga_to_add["date"]:
                 seen = True
         if not seen:
@@ -112,4 +113,3 @@ def main():
 
 if __name__ == "__main__":                                                                                                       
     main()                                                                                                                       
- 
