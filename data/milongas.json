@@ -2,7 +2,7 @@
   {
     "title": "Fusion Milonga bei Tango Vision",
     "date": "2026-07-28",
-    "dj": null,
+    "dj": "DJ Martina",
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -18,12 +18,12 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Klassische Milonga bei Tango Vision",
     "date": "2026-07-24",
-    "dj": null,
+    "dj": "DJ Aureliano",
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -39,7 +39,7 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Klassische Milonga bei Tango Vision",
