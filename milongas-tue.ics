@@ -3,10 +3,32 @@ VERSION:2.0
 PRODID:-//Tango Tübingen//Milonga//DE
 X-WR-CALNAME:Milongas Tübingen
 BEGIN:VEVENT
+SUMMARY:Fusion Milonga bei Tango Vision
+DTSTART;TZID=Europe/Berlin:20260728T203000
+DTEND;TZID=Europe/Berlin:20260729T000000
+DTSTAMP:20260723T164838Z
+UID:2026-07-28-Fusion-Milonga-bei-Tango-Vision@tangotuebingen.de
+SEQUENCE:0
+DESCRIPTION:DJ Martina – Neo\nhttps://tangotuebingen.de
+LOCATION:Tango Vision\, Wörthstraße 55\, 72764 Reutlingen
+URL:https://tangotuebingen.de
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Klassische Milonga bei Tango Vision
+DTSTART;TZID=Europe/Berlin:20260724T203000
+DTEND;TZID=Europe/Berlin:20260725T000000
+DTSTAMP:20260723T164838Z
+UID:2026-07-24-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
+SEQUENCE:0
+DESCRIPTION:DJ Aureliano – Traditionell\nhttps://tangotuebingen.de
+LOCATION:Tango Vision\, Wörthstraße 55\, 72764 Reutlingen
+URL:https://tangotuebingen.de
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Milonga Mis Amores
 DTSTART;TZID=Europe/Berlin:20260805T190000
 DTEND;TZID=Europe/Berlin:20260805T230000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-08-05-Milonga-Mis-Amores@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Anja – Traditionell\nhttps://tangotuebingen.de
@@ -17,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20260801T200000
 DTEND;TZID=Europe/Berlin:20260802T000000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-08-01-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Milton – Traditionell\nhttps://tangotuebingen.de
@@ -28,7 +50,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260804T200000
 DTEND;TZID=Europe/Berlin:20260804T230000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-08-04-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
@@ -39,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260811T200000
 DTEND;TZID=Europe/Berlin:20260811T230000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-08-11-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -50,7 +72,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260818T200000
 DTEND;TZID=Europe/Berlin:20260818T230000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-08-18-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -61,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260825T200000
 DTEND;TZID=Europe/Berlin:20260825T230000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-08-25-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
@@ -72,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260901T200000
 DTEND;TZID=Europe/Berlin:20260901T230000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-09-01-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -83,7 +105,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260908T200000
 DTEND;TZID=Europe/Berlin:20260908T230000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-09-08-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -94,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:Practica im Hirsch
 DTSTART;TZID=Europe/Berlin:20260727T113000
 DTEND;TZID=Europe/Berlin:20260727T130000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-07-27-Practica-im-Hirsch@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Caren – Traditionell\nhttps://tangotuebingen.de
@@ -105,7 +127,7 @@ BEGIN:VEVENT
 SUMMARY:Practica im Hirsch
 DTSTART;TZID=Europe/Berlin:20260803T113000
 DTEND;TZID=Europe/Berlin:20260803T130000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-08-03-Practica-im-Hirsch@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Caren – Traditionell\nhttps://tangotuebingen.de
@@ -116,7 +138,7 @@ BEGIN:VEVENT
 SUMMARY:Practica und Schritt der Woche
 DTSTART;TZID=Europe/Berlin:20260728T200000
 DTEND;TZID=Europe/Berlin:20260728T223000
-DTSTAMP:20260723T163806Z
+DTSTAMP:20260723T164838Z
 UID:2026-07-28-Practica-und-Schritt-der-Woche@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
