@@ -164,7 +164,7 @@
     "currency": "EUR",
     "event_type": "milonga",
     "url": null,
-    "description": "Nur, wenn es nicht regnet.",
+    "description": "Nur wenn es nicht regnet.",
     "published": true
   },
   {
@@ -185,7 +185,7 @@
     "currency": "EUR",
     "event_type": "milonga",
     "url": null,
-    "description": "Nur, wenn es nicht regnet.",
+    "description": "Nur wenn es nicht regnet.",
     "published": true
   },
   {
@@ -206,7 +206,7 @@
     "currency": "EUR",
     "event_type": "milonga",
     "url": null,
-    "description": "Nur, wenn es nicht regnet.",
+    "description": "Nur wenn es nicht regnet.",
     "published": true
   },
   {
@@ -227,7 +227,7 @@
     "currency": "EUR",
     "event_type": "milonga",
     "url": null,
-    "description": "Nur, wenn es nicht regnet.",
+    "description": "Nur wenn es nicht regnet.",
     "published": true
   },
   {
@@ -248,7 +248,7 @@
     "currency": "EUR",
     "event_type": "milonga",
     "url": null,
-    "description": "Nur, wenn es nicht regnet.",
+    "description": "Nur wenn es nicht regnet.",
     "published": true
   },
   {
@@ -269,7 +269,73 @@
     "currency": "EUR",
     "event_type": "milonga",
     "url": null,
-    "description": "Nur, wenn es nicht regnet.",
+    "description": "Nur wenn es nicht regnet.",
+    "published": true
+  },
+
+  {
+    "title": "Milonga im Museum",
+    "date": "2026-09-05",
+    "dj": "DJ TBA",
+    "style": "Traditionell",
+    "start_time": "20:00",
+    "end_time": "24:00",
+    "venue": "Museumsgesellschaft",
+    "street": "Wilhelmstraße",
+    "house_number": "3",
+    "postal_code": "72074",
+    "city": "Tübingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": null,
+    "currency": "EUR",
+    "event_type": "milonga",
+    "url": null,
+    "description": null,
+    "published": true
+  },
+
+  {
+    "title": "Milonga im Museum",
+    "date": "2026-11-14",
+    "dj": "DJ Christian",
+    "style": "Traditionell",
+    "start_time": "20:00",
+    "end_time": "24:00",
+    "venue": "Museumsgesellschaft",
+    "street": "Wilhelmstraße",
+    "house_number": "3",
+    "postal_code": "72074",
+    "city": "Tübingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": null,
+    "currency": "EUR",
+    "event_type": "milonga",
+    "url": null,
+    "description": null,
+    "published": true
+  },
+
+  {
+    "title": "Milonga im Museum",
+    "date": "2026-12-19",
+    "dj": "DJ TBA",
+    "style": "Traditionell",
+    "start_time": "20:00",
+    "end_time": "24:00",
+    "venue": "Museumsgesellschaft",
+    "street": "Wilhelmstraße",
+    "house_number": "3",
+    "postal_code": "72074",
+    "city": "Tübingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": null,
+    "currency": "EUR",
+    "event_type": "milonga",
+    "url": null,
+    "description": null,
     "published": true
   }
 ]
