@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Fusion Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260818T203000
 DTEND;TZID=Europe/Berlin:20260819T000000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-08-18-Fusion-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Martina – Neo\nhttps://tangotuebingen.de
@@ -17,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:Fusion Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260825T203000
 DTEND;TZID=Europe/Berlin:20260826T000000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-08-25-Fusion-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Martina – Neo\nhttps://tangotuebingen.de
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 SUMMARY:Klassische Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260814T203000
 DTEND;TZID=Europe/Berlin:20260815T000000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-08-14-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Martina – Traditionell\nhttps://tangotuebingen.de
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:Klassische Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260821T203000
 DTEND;TZID=Europe/Berlin:20260822T000000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-08-21-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -50,7 +50,7 @@ BEGIN:VEVENT
 SUMMARY:Klassische Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20260828T203000
 DTEND;TZID=Europe/Berlin:20260829T000000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-08-28-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ KONSTANTINOS – Traditionell\nhttps://tangotuebingen.de
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20260905T200000
 DTEND;TZID=Europe/Berlin:20260906T000000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-09-05-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -72,7 +72,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20261114T200000
 DTEND;TZID=Europe/Berlin:20261115T000000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-11-14-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Christian – Traditionell\nhttps://tangotuebingen.de
@@ -83,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20261219T200000
 DTEND;TZID=Europe/Berlin:20261220T000000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-12-19-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -91,10 +91,32 @@ LOCATION:Museumsgesellschaft\, Wilhelmstraße 3\, 72074 Tübingen
 URL:https://tangotuebingen.de
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Offene Practica bei Tango para tu
+DTSTART;TZID=Europe/Berlin:20260813T200000
+DTEND;TZID=Europe/Berlin:20260813T220000
+DTSTAMP:20260812T144925Z
+UID:2026-08-13-Offene-Practica-bei-Tango-para-tu@tangotuebingen.de
+SEQUENCE:0
+DESCRIPTION:– – \nhttps://tangotuebingen.de
+LOCATION:Tanz-Atelier\, Provenceweg 22\, 72072 Tübingen
+URL:https://tangotuebingen.de
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Offene Practica bei Tango para tu
+DTSTART;TZID=Europe/Berlin:20260820T200000
+DTEND;TZID=Europe/Berlin:20260820T220000
+DTSTAMP:20260812T144925Z
+UID:2026-08-20-Offene-Practica-bei-Tango-para-tu@tangotuebingen.de
+SEQUENCE:0
+DESCRIPTION:– – \nhttps://tangotuebingen.de
+LOCATION:Tanz-Atelier\, Provenceweg 22\, 72072 Tübingen
+URL:https://tangotuebingen.de
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260818T193000
 DTEND;TZID=Europe/Berlin:20260818T230000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-08-18-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:2
 DESCRIPTION:DJ Peggy – Gemischt\nhttps://tangotuebingen.de
@@ -105,7 +127,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260825T193000
 DTEND;TZID=Europe/Berlin:20260825T230000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-08-25-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:1
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -116,7 +138,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260901T193000
 DTEND;TZID=Europe/Berlin:20260901T230000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-09-01-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:1
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -127,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260908T193000
 DTEND;TZID=Europe/Berlin:20260908T230000
-DTSTAMP:20260812T144408Z
+DTSTAMP:20260812T144925Z
 UID:2026-09-08-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:1
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
