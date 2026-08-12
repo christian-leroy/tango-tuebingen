@@ -192,7 +192,7 @@
     "title": "Offene Practica bei Tango para tu",
     "date": "2026-08-13",
     "dj": "–",
-    "style": "–",
+    "style": "",
     "start_time": "20:00",
     "end_time": "22:00",
     "venue": "Tanz-Atelier",
@@ -207,13 +207,13 @@
     "event_type": "milonga",
     "url": null,
     "description": "Zum Ausprobieren und Üben, anfängerfreundlich und für alle!",
-    "published": false
+    "published": true
   },
   {
     "title": "Offene Practica bei Tango para tu",
     "date": "2026-08-20",
     "dj": "–",
-    "style": "–",
+    "style": "",
     "start_time": "20:00",
     "end_time": "22:00",
     "venue": "Tanz-Atelier",
@@ -228,7 +228,7 @@
     "event_type": "milonga",
     "url": null,
     "description": "Zum Ausprobieren und Üben, anfängerfreundlich und für alle!",
-    "published": false
+    "published": true
   },
   {
     "title": "Outdoor Milonga",
