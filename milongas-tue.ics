@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20260905T200000
 DTEND;TZID=Europe/Berlin:20260906T000000
-DTSTAMP:20260830T041447Z
+DTSTAMP:20260831T094106Z
 UID:2026-09-05-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -17,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20261114T200000
 DTEND;TZID=Europe/Berlin:20261115T000000
-DTSTAMP:20260830T041447Z
+DTSTAMP:20260831T094106Z
 UID:2026-11-14-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Christian – Traditionell\nhttps://tangotuebingen.de
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20261219T200000
 DTEND;TZID=Europe/Berlin:20261220T000000
-DTSTAMP:20260830T041447Z
+DTSTAMP:20260831T094106Z
 UID:2026-12-19-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -39,10 +39,10 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260901T193000
 DTEND;TZID=Europe/Berlin:20260901T230000
-DTSTAMP:20260830T041447Z
+DTSTAMP:20260831T094106Z
 UID:2026-09-01-Outdoor-Milonga@tangotuebingen.de
-SEQUENCE:2
-DESCRIPTION:DJ Rupert – Traditionell\nhttps://tangotuebingen.de
+SEQUENCE:3
+DESCRIPTION:DJ Rupert – Gemischt\nhttps://tangotuebingen.de
 LOCATION:Vor dem Keplergymnasium\, Uhlandstraße 30\, 72072 Tübingen
 URL:https://tangotuebingen.de
 END:VEVENT
@@ -50,7 +50,7 @@ BEGIN:VEVENT
 SUMMARY:Outdoor Milonga
 DTSTART;TZID=Europe/Berlin:20260908T193000
 DTEND;TZID=Europe/Berlin:20260908T230000
-DTSTAMP:20260830T041447Z
+DTSTAMP:20260831T094106Z
 UID:2026-09-08-Outdoor-Milonga@tangotuebingen.de
 SEQUENCE:2
 DESCRIPTION:DJ Christian – Traditionell\nhttps://tangotuebingen.de
