@@ -1,10 +1,10 @@
 [
   {
     "title": "Practica im Hirsch",
-    "recurrence": "monthly",
+    "recurrence": "weekly",
     "weekday": 0,
-    "dj": "DJ Caren",
-    "style": "Traditionell",
+    "dj": "–",
+    "style": "Gemischt",
     "start_time": "11:30",
     "end_time": "13:00",
     "venue": "Hirsch Begegnungsstätte",
