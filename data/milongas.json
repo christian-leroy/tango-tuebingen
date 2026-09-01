@@ -2,7 +2,7 @@
   {
     "title": "Fusion Milonga bei Tango Vision",
     "date": "2026-09-01",
-    "dj": null,
+    "dj": "DJ Hans-Jürgen",
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -18,12 +18,12 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Fusion Milonga bei Tango Vision",
     "date": "2026-09-08",
-    "dj": null,
+    "dj": "DJ Martina",
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -39,7 +39,7 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Fusion Milonga bei Tango Vision",
@@ -65,7 +65,7 @@
   {
     "title": "Klassische Milonga bei Tango Vision",
     "date": "2026-09-04",
-    "dj": null,
+    "dj": "DJ Major Tom",
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -81,12 +81,12 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Klassische Milonga bei Tango Vision",
     "date": "2026-09-11",
-    "dj": null,
+    "dj": "DJ Martina",
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -102,10 +102,31 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
-    "title": "Milonga La Viruta",
+    "title": "Klassische Milonga bei Tango Vision",
+    "date": "2026-09-18",
+    "dj": "DJ Sascha Weinberger",
+    "style": "Traditionell",
+    "start_time": "20:30",
+    "end_time": "24:00",
+    "venue": "Tango Vision",
+    "street": "Wörthstraße",
+    "house_number": "55",
+    "postal_code": "72764",
+    "city": "Reutlingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": 10,
+    "currency": "EUR",
+    "event_type": "Milonga",
+    "url": null,
+    "description": null,
+    "published": true
+  },
+  {
+    "title": "Practica La Viruta",
     "date": "2026-09-12",
     "dj": "DJ Urban",
     "style": "Traditionell",
@@ -120,10 +141,10 @@
     "organizer_url": null,
     "price": null,
     "currency": "EUR",
-    "event_type": "milonga",
+    "event_type": "practica",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Milonga im Museum",
@@ -268,6 +289,48 @@
     "price": null,
     "currency": "EUR",
     "event_type": "practica",
+    "url": null,
+    "description": null,
+    "published": true
+  },
+  {
+    "title": "Milonga Mis Amores",
+    "date": "2026-09-02",
+    "dj": "DJ Anja",
+    "style": "Traditionell",
+    "start_time": "19:00",
+    "end_time": "23:00",
+    "venue": "Encanto",
+    "street": "Bei den Pferdeställen",
+    "house_number": "2",
+    "postal_code": "72072",
+    "city": "Tübingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": null,
+    "currency": "EUR",
+    "event_type": "milonga",
+    "url": null,
+    "description": null,
+    "published": true
+  },
+  {
+    "title": "Milonga Mis Amores",
+    "date": "2026-10-07",
+    "dj": "DJ Anja",
+    "style": "Traditionell",
+    "start_time": "19:00",
+    "end_time": "23:00",
+    "venue": "Encanto",
+    "street": "Bei den Pferdeställen",
+    "house_number": "2",
+    "postal_code": "72072",
+    "city": "Tübingen",
+    "organizer": null,
+    "organizer_url": null,
+    "price": null,
+    "currency": "EUR",
+    "event_type": "milonga",
     "url": null,
     "description": null,
     "published": true

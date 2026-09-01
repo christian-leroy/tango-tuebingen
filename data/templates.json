@@ -44,7 +44,7 @@
     "published": true
   },
   {
-    "title": "Milonga La Viruta",
+    "title": "Practica La Viruta",
     "recurrence": "monthly",
     "weekday": "saturday",
     "week_of_month": 2,
@@ -61,7 +61,7 @@
     "organizer_url": null,
     "price": null,
     "currency": "EUR",
-    "event_type": "milonga",
+    "event_type": "practica",
     "url": null,
     "description": null,
     "published": true
