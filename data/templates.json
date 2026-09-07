@@ -23,7 +23,7 @@
   },
   {
     "title": "Practica und Schritt der Woche",
-    "recurrence": "monthly",
+    "recurrence": "weekly",
     "weekday": 1,
     "dj": "DJ Urban",
     "style": "Traditionell",
