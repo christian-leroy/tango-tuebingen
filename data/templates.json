@@ -93,7 +93,7 @@
     "title": "Klassische Milonga bei Tango Vision",
     "recurrence": "weekly",
     "weekday": 4,
-    "dj": null,
+    "dj": "TBA",
     "style": "Traditionell",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -109,13 +109,13 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   },
   {
     "title": "Fusion Milonga bei Tango Vision",
     "recurrence": "weekly",
     "weekday": 1,
-    "dj": null,
+    "dj": "TBA",
     "style": "Neo",
     "start_time": "20:30",
     "end_time": "24:00",
@@ -131,6 +131,6 @@
     "event_type": "Milonga",
     "url": null,
     "description": null,
-    "published": false
+    "published": true
   }
 ]
