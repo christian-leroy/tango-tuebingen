@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Fusion Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20261110T203000
 DTEND;TZID=Europe/Berlin:20261111T000000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-10-Fusion-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:TBA – Neo\nhttps://tangotuebingen.de
@@ -17,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:Fusion Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20261117T203000
 DTEND;TZID=Europe/Berlin:20261118T000000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-17-Fusion-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:TBA – Neo\nhttps://tangotuebingen.de
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 SUMMARY:Klassische Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20261113T203000
 DTEND;TZID=Europe/Berlin:20261114T000000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-13-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:TBA – Traditionell\nhttps://tangotuebingen.de
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:Klassische Milonga bei Tango Vision
 DTSTART;TZID=Europe/Berlin:20261120T203000
 DTEND;TZID=Europe/Berlin:20261121T000000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-20-Klassische-Milonga-bei-Tango-Vision@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:TBA – Traditionell\nhttps://tangotuebingen.de
@@ -50,7 +50,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20261114T200000
 DTEND;TZID=Europe/Berlin:20261115T000000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-14-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:1
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:Milonga im Museum
 DTSTART;TZID=Europe/Berlin:20261219T200000
 DTEND;TZID=Europe/Berlin:20261220T000000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-12-19-Milonga-im-Museum@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ TBA – Traditionell\nhttps://tangotuebingen.de
@@ -69,21 +69,21 @@ LOCATION:Museumsgesellschaft\, Wilhelmstraße 3\, 72074 Tübingen
 URL:https://tangotuebingen.de
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Practica im Hirsch
-DTSTART;TZID=Europe/Berlin:20261109T113000
-DTEND;TZID=Europe/Berlin:20261109T130000
-DTSTAMP:20261108T045839Z
-UID:2026-11-09-Practica-im-Hirsch@tangotuebingen.de
+SUMMARY:Practica La Viruta
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261115T000000
+DTSTAMP:20261110T174037Z
+UID:2026-11-14-Practica-La-Viruta@tangotuebingen.de
 SEQUENCE:0
-DESCRIPTION:– – Gemischt\nhttps://tangotuebingen.de
-LOCATION:Hirsch Begegnungsstätte\, Hirschgasse 9\, 72070 Tübingen
+DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
+LOCATION:Tanz-Atelier\, Provenceweg 22\, 72072 Tübingen
 URL:https://tangotuebingen.de
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Practica im Hirsch
 DTSTART;TZID=Europe/Berlin:20261116T113000
 DTEND;TZID=Europe/Berlin:20261116T130000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-16-Practica-im-Hirsch@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:– – Gemischt\nhttps://tangotuebingen.de
@@ -94,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:Practica im Hirsch
 DTSTART;TZID=Europe/Berlin:20261123T113000
 DTEND;TZID=Europe/Berlin:20261123T130000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-23-Practica-im-Hirsch@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:– – Gemischt\nhttps://tangotuebingen.de
@@ -105,7 +105,7 @@ BEGIN:VEVENT
 SUMMARY:Practica und Schritt der Woche
 DTSTART;TZID=Europe/Berlin:20261110T200000
 DTEND;TZID=Europe/Berlin:20261110T223000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-10-Practica-und-Schritt-der-Woche@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:Practica und Schritt der Woche
 DTSTART;TZID=Europe/Berlin:20261117T200000
 DTEND;TZID=Europe/Berlin:20261117T223000
-DTSTAMP:20261108T045839Z
+DTSTAMP:20261110T174037Z
 UID:2026-11-17-Practica-und-Schritt-der-Woche@tangotuebingen.de
 SEQUENCE:0
 DESCRIPTION:DJ Urban – Traditionell\nhttps://tangotuebingen.de
